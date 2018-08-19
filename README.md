@@ -1,3 +1,3 @@
 # iotedge
-**Clear docker logs **
+**Clear docker logs**
 echo "" > $(docker inspect --format='{{.LogPath}}' <container_name_or_id>)
